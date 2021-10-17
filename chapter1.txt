@@ -1,0 +1,6 @@
+it was best times on that.
+Haha ha.
+
+git init - inicializuje prazdny subor .git  ktory vznikne vo foldri
+
+git status - ukaze ktore subory su v procese ukladania verzi do gitu.
