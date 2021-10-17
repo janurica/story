@@ -3,4 +3,12 @@ Haha ha.
 
 git init - inicializuje prazdny subor .git  ktory vznikne vo foldri
 
-git status - ukaze ktore subory su v procese ukladania verzi do gitu.
+git status - ukaze ktore subory su v procese ukladania verzi do gitu().
+
+git add_meno suboru.pripona  - prida dany subor resp verziu do gitu subor sa zozeleni povodne bol cerveny. (je v staging area a pripraveny na commit)
+
+git commit -m "complete chapter 1"   (-m = message + ""  text sparavy pri commit)
+
+  
+
+
