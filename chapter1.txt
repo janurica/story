@@ -1,4 +1,4 @@
-it was best times on that.
+it was best times on that of alien.
 Haha ha.
 
 git init - inicializuje prazdny subor .git  ktory vznikne vo foldri
@@ -8,6 +8,34 @@ git status - ukaze ktore subory su v procese ukladania verzi do gitu().
 git add_meno suboru.pripona  - prida dany subor resp verziu do gitu subor sa zozeleni povodne bol cerveny. (je v staging area a pripraveny na commit)
 
 git commit -m "complete chapter 1"   (-m = message + ""  text sparavy pri commit)
+
+git log (ktorluje a vyloguje commitnute subory)
+
+git diff_meno suboru.pripona ( rozdily medzi verziami sa vypisu)
+
+
+git checkout meno suboru.pripona
+
+Naliatie obsahu localneho suboru git na git server:
+
+git remote add origin https://github.com/janurica/story.git  (nadefinovanie localneho a vzdialeneho miesta)
+git push -u origin main
+
+
+Vytvorenie suboru, ktory bude git ignorovat
+
+touch .gitignore   (Vytvori sa subor prezeretelny len po zadani ls -a)
+
+git rm --cached  -r .  (posledne r je skratka recursive a . znemna vsetko (odoberie vsetky subory zo staging area))
+
+git branch nameofBranch   - zmena branchu
+
+git branch ukaze na akom branchi som * a ake este branche su tam
+
+git checkout menoBranchu   zmeni na branch aky napiseme
+
+
+
 
   
 
